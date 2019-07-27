@@ -1,0 +1,5 @@
+FROM nginx:alpine
+
+COPY ./packages/gatsby-app/build /usr/share/nginx/html
+
+EXPOSE 80
